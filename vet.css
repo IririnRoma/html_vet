@@ -1,0 +1,299 @@
+.header ul{
+	display: flex;
+	height:55px;
+	max-width:100%;
+	background-color:rgb(255, 255, 255);
+    justify-content:space-between;
+	align-items:center;
+	margin-bottom:20px;
+}
+.header li{
+	display: flex;
+	list-style-type: none;
+	text-transform:uppercase;
+		width:100%;
+		height:100%;
+	justify-content:center;
+	align-items:center;
+}
+.header li:hover{
+    transition: .3s;
+    background-color: rgba(178, 207, 236, 0.842);
+}
+.header{
+    background: url("шапка.jpg") no-repeat center bottom;
+    height: 500px;
+	margin-bottom:20px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: rgba(41, 47, 122, 0.815);
+}
+.main p{
+    text-align: justify;
+    font-style: oblique;
+    color: rgba(19, 72, 126, 0.74);
+    font-size: x-large;
+}
+.img{
+    float: left;
+    height: 200px;
+    width: 235px;
+    margin: 10px 10px 10px 10px;
+}
+.q{
+    border: 1px solid rgb(92, 92, 202);
+    background-color: rgb(92, 92, 202);
+    height: 250px;
+}
+.q p{
+    color: white;
+    font-size: xx-large;
+    font-style: oblique;
+    text-align: center;
+}
+.q img{
+    height: 100px;
+    width: 100px;
+    float: inline-start;
+    margin: 0px 0px 0px 700px;
+}
+.service {
+    text-align: center;
+}
+.service p{
+    color: rgba(19, 72, 126, 0.74);
+    font-size: xx-large;
+    font-style: oblique;
+}
+.service p1{
+    color: rgba(19, 72, 126, 0.74);
+    font-size: x-large;
+    font-style: oblique;
+}
+.block{
+    display: flex;
+    flex-grow: 1;
+}
+.block p{
+    font-size: large;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(49, 51, 179);
+}
+.block ul{
+    font-size: large;
+    font-style: oblique;
+    text-align: center;
+    color: rgb(49, 51, 179);
+}
+.block span{
+    display: flex;
+    flex-grow: 1;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px rgb(49, 51, 179) solid;
+}
+.block span img{
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+.block span:hover{
+    margin: 1px;
+    border:10px rgb(49, 51, 179) solid;
+    background-color: lightgray;
+    transition: .3s;
+}
+.c1 p{
+    color: rgba(19, 72, 126, 0.74);
+    font-size: x-large;
+    font-style: oblique;
+    text-align: center;
+}
+.c1 img{
+    height: 115px;
+    width: 158px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.c11 p{
+    font-style: oblique;
+    color: rgb(49, 51, 179);
+    font-size: large;
+    flex-grow: 1;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px rgb(49, 51, 179) solid;
+}
+.c11 p:hover{
+    text-align: center;
+    margin: 1px;
+    border: 5px rgb(49, 51, 179) solid;
+    transition: .3s;
+}
+.d1 p{
+    color: rgba(19, 72, 126, 0.74);
+    font-size: x-large;
+    font-style: oblique;
+    text-align: center;
+}
+.d1 img{
+    height: 115px;
+    width: 158px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.d11 p{
+    font-style: oblique;
+    color: rgb(49, 51, 179);
+    font-size: large;
+    flex-grow: 1;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px rgb(49, 51, 179) solid;
+}
+.d11 p:hover{
+    text-align: center;
+    margin: 1px;
+    border: 5px rgb(49, 51, 179) solid;
+    transition: .3s;
+}
+.r1 p{
+    color: rgba(19, 72, 126, 0.74);
+    font-size: x-large;
+    font-style: oblique;
+    text-align: center;
+}
+.r1 img{
+    height: 115px;
+    width: 158px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.r11 p{
+    font-style: oblique;
+    color: rgb(49, 51, 179);
+    font-size: large;
+    flex-grow: 1;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px rgb(49, 51, 179) solid;
+}
+.r11 p:hover{
+    text-align: center;
+    margin: 1px;
+    border: 5px rgb(49, 51, 179) solid;
+    transition: .3s;
+}
+.b1 p{
+    color: rgba(19, 72, 126, 0.74);
+    font-size: x-large;
+    font-style: oblique;
+    text-align: center;
+}
+.b1 img{
+    height: 115px;
+    width: 158px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.b11 p{
+    font-style: oblique;
+    color: rgb(49, 51, 179);
+    font-size: large;
+    flex-grow: 1;
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px rgb(49, 51, 179) solid;
+}
+.b11 p:hover{
+    text-align: center;
+    margin: 1px;
+    border: 5px rgb(49, 51, 179) solid;
+    transition: .3s;
+}
+.comments p{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    color: rgba(19, 72, 126, 0.74);
+}
+.comments p1{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    color: rgba(19, 72, 126, 0.74);
+}
+.w{
+    border: 1px solid rgb(92, 92, 202);
+    background-color: rgb(92, 92, 202);
+    height: 400px;
+}
+.w p{
+    color: white;
+    font-size: x-large;
+    font-style: oblique;
+    text-align: left;
+}
+.w p1{
+    color: white;
+    font-size: x-large;
+    font-style: oblique;
+    text-align: left;
+}
+.w p2{
+    color: white;
+    font-size: x-large;
+    font-style: oblique;
+    text-align: left;
+}
+.i1{
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.i2{
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.i3{
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+.sale p{
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    color: rgba(19, 72, 126, 0.74);
+}
+#g1{
+    float: left;
+    margin: 10px 100px 100px 700px;
+}
+.contact h1{
+    color: white;
+}
+.contact{
+    border: 1px solid rgb(92, 92, 202);
+    background-color: rgb(92, 92, 202);
+    height: 500px;
+    margin: 300px 0px 0px 0px;
+}
+.contact p{
+    color: white;
+    font-style: oblique;
+    font-size: x-large;
+    text-align: center;
+}
